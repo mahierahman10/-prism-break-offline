@@ -1,31 +1,43 @@
-PRISM BREAK — OFFLINE DEVELOPER EDITION
-Latest saved source: 90831495721ef83fba248a70ebe40d175cedf25e
-Packaged 21 September 2026. This includes completed changes that have not yet reached the online Site.
+PRISMBREAKER — OFFLINE DEV EDITION
 
-UPLOAD TO YOUR EXISTING GITHUB PAGES REPOSITORY
-1. Extract this ZIP. On iPhone, tap the downloaded ZIP in Files.
-2. Open your existing -prism-break-offline repository.
-3. Use Add file > Upload files. Upload all SEVEN extracted files at the repository root, where index.html already is. Replace matching files and commit the changes. Do not upload the ZIP itself or put the files inside an extra folder.
-4. Keep your existing GitHub Pages branch/folder settings and address.
-5. After GitHub Pages finishes deploying, open your existing game link while online. Close and reopen it if the old version remains. Do not clear website data, since that can erase local saves.
-6. On iPhone, use Safari > Share > Add to Home Screen if you have not already installed it. Let it display OFFLINE DEV READY before going offline.
+Exactly seven files. Keep them together.
 
-DEVELOPER CONTROLS
-- Profile > Collection: unlock all cosmetics, including secrets, or reset the view to earned cosmetics. Earned progress is retained.
-- Settings: Developer: refill all power-ups (999 of each).
-- Developer test purchases and test ad rewards; no real payment or advert.
-- New developer profiles start with cosmetics unlocked and test items available. Existing profiles can use the controls above.
+IPHONE / ANDROID
+Open https://prism-break.sarmrage720.chatgpt.site/offline-dev/ while online.
+Wait for OFFLINE DEV READY. In Safari choose Share > Add to Home Screen.
+On Android use your browser's Install app / Add to Home screen option.
+Open the installed game once online before travelling. It can then work offline.
+Downloading the ZIP into the iPhone Files app alone does not install the game.
 
-LATEST FEATURES INCLUDED
-- Boss warning banner, warning sounds and varied entrances.
-- Clear celebration and improved hit sounds.
-- Set name & play, with the name saved for subsequent runs.
-- Eight simple colour ball/trail sets and beginner challenges.
-- Distinct unlock chime that respects mute settings.
-- Existing physics, progression, cosmetics and recovery work retained.
+YOUR OWN WEBSITE / GITHUB PAGES
+Extract this ZIP and upload all seven files into the same folder on your HTTPS
+website. Open that address online and install it using the steps above.
+Desktop: index.html also runs directly, but browser storage for local files
+can vary. For reliable saves and installation, use the hosted version.
 
-SAVES
-Progress, names, inventory and leaderboard entries are stored on this browser/device. Existing developer storage keys and checkpoint keys are unchanged. Keep using the same GitHub Pages address and browser to retain developer saves.
-Regular offline and developer profiles use separate save slots; switching editions does not delete the other slot. Online Site accounts and leaderboards do not sync into this edition. The ZIP contains game files, not anyone's private player data.
+DEV ACCESS
+All balls, secret sets and trails are available to equip. Developer refill gives
+free power-ups. Profile > Customise > Reset to earned cosmetics restores normal
+unlock restrictions without deleting your earned progress. Unlock all reveals
+secrets again. Challenges always show requirements.
 
-All game code, artwork and styles are included in index.html. The other files enable installation and offline caching. No build command, server database, API key or account is required.
+SAVES / UPDATES
+Progress saves on this device, browser and website address. Offline scores and
+unlocks are separate from the online leaderboard; this edition does not sync.
+Keep the same website address when replacing these seven files for an update.
+Finish the current run, then close every open game tab/window and reopen it.
+The new service worker waits for old pages to close; no forced mid-run reload.
+Do not clear browser/site data if you want to keep your local save.
+Moving to a different website address or browser does not move your save.
+
+ADS / PURCHASES
+There are no real advertisements or real payments. The sandbox ad test is clearly
+labelled; cancelling or backgrounding it requires starting a fresh attempt.
+Never publish this dev edition as your monetised production app.
+
+INCLUDED UPDATE
+Four animated secret sets and trails: Jade Dragon, Neon Zenith, Lucky Eight,
+Tempest. Improved unlock celebrations and browsable game-over rewards. Name
+filter, larger mobile controls, clear ON/OFF settings, Customise tab and fading
+hints. New-run block-health bonuses: 5% at 250k, 10% at 500k, 12.5% at 1m,
+15% at 5m (total, not compounded). Existing runs retain their original rules.
