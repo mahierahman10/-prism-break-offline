@@ -4,7 +4,10 @@ Exactly seven files. Keep them together.
 
 IPHONE / ANDROID
 Open https://prism-break.sarmrage720.chatgpt.site/offline-dev/ while online.
-Wait for OFFLINE DEV READY. In Safari choose Share > Add to Home Screen.
+Wait for OFFLINE DEV READY (this checks the saved game). In Safari choose
+Share > Add to Home Screen. Open the HOME SCREEN ICON once while still online
+and wait for OFFLINE DEV READY there too; Safari and installed apps may have
+separate storage. If it says OFFLINE NOT READY, keep data on and retry.
 On Android use your browser's Install app / Add to Home screen option.
 Open the installed game once online before travelling. It can then work offline.
 Downloading the ZIP into the iPhone Files app alone does not install the game.
@@ -26,7 +29,7 @@ Progress saves on this device, browser and website address. Offline scores and
 unlocks are separate from the online leaderboard; this edition does not sync.
 Keep the same website address when replacing these seven files for an update.
 Finish the current run, then close every open game tab/window and reopen it.
-The new service worker waits for old pages to close; no forced mid-run reload.
+Updates prepare the next launch without reloading a run in progress.
 Do not clear browser/site data if you want to keep your local save.
 Moving to a different website address or browser does not move your save.
 
